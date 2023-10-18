@@ -350,7 +350,7 @@ img{
 .menu__img{
   width: 100px;
   align-self: center;
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-3);
 }
 
 .menu__name, .menu__preci{
@@ -360,6 +360,7 @@ img{
 
 .menu__name{
   font-size: var(--normal-font-size);
+  margin-bottom: var(--mb-1);
 }
 
 .menu__detail, .menu__preci{
@@ -379,7 +380,6 @@ img{
   border-radius: .5rem 0 .5rem 0;
 }
 
-/*========== APP ==========*/
 .app__data{
   text-align: center;
 }
