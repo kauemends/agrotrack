@@ -48,7 +48,6 @@
   }
 }
 
-/*========== BASE ==========*/
 *,::before,::after{
   box-sizing: border-box;
 }
@@ -57,7 +56,6 @@ html{
   scroll-behavior: smooth;
 }
 
-/*========== Variables Dark theme ==========*/
 body.dark-theme{
   --title-color: #F1F3F2;
   --text-color: #C7D1CC;
@@ -65,7 +63,6 @@ body.dark-theme{
   --container-color: #27302C;
 }
 
-/*========== Button Dark/Light ==========*/
 .change-theme{
   position: absolute;
   right: 1rem;
@@ -102,9 +99,12 @@ img{
   height: auto;
 }
 
-/*========== CLASS CSS ==========*/
 .section{
   padding: 4rem 0 2rem;
+}
+
+.about {
+  padding: 1rem 0 2rem;
 }
 
 .section-title{
@@ -122,7 +122,6 @@ img{
   font-weight: var(--font-bold);
 }
 
-/*========== LAYOUT ==========*/
 .bd-container{
   max-width: 960px;
   width: calc(100% - 2rem);
@@ -144,7 +143,6 @@ img{
   background-color: var(--body-color);
 }
 
-/*========== NAV ==========*/
 .nav{
   max-width: 1024px;
   height: var(--header-height);
@@ -199,22 +197,18 @@ img{
   cursor: pointer;
 }
 
-/* Show menu */
 .show-menu{
   top: var(--header-height);
 }
 
-/* Active menu */
 .active-link{
   color: var(--first-color);
 }
 
-/* Change background header */
 .scroll-header{
   box-shadow: 0 2px 4px rgba(0,0,0,.1);
 }
 
-/* Scroll top */
 .scrolltop{
   position: fixed;
   right: 1rem;
@@ -239,16 +233,20 @@ img{
   color: var(--body-color);
 }
 
-/* Show scrolltop */
 .show-scroll{
   visibility: visible;
   bottom: 1.5rem;
 }
 
-/*========== HOME ==========*/
 .home__container{
   height: calc(100vh - var(--header-height));
   align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__container .home__data{
+  text-align: center;
 }
 
 .home__title{
@@ -268,9 +266,9 @@ img{
 .home__img{
   width: 300px;
   justify-self: center;
+  padding: 1rem 0 0;
 }
 
-/*========== BUTTONS ==========*/
 .button{
   display: inline-block;
   background-color: var(--first-color);
@@ -285,7 +283,6 @@ img{
   background-color: var(--first-color-alt);
 }
 
-/*========== ABOUT ==========*/
 .about__initial{
   font-size: var(--h2-font-size);
 }
@@ -304,7 +301,6 @@ img{
   justify-self: center;
 }
 
-/*========== SERVICES ==========*/
 .services__container{
   row-gap: 2.5rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -331,7 +327,6 @@ img{
   padding: 0 1.5rem;
 }
 
-/*========== MENU ==========*/
 .menu__container{
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -402,7 +397,6 @@ img{
   justify-self: center;
 }
 
-/*========== CONTACT ==========*/
 .contact__container{
   text-align: center;
 }
@@ -411,7 +405,6 @@ img{
   margin-bottom: var(--mb-3);
 }
 
-/*========== FOOTER ==========*/
 .footer__container{
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   row-gap: 2rem;
@@ -458,13 +451,24 @@ img{
   margin-top: 3.5rem;
 }
 
-/*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px){
   .home__container,
   .about__container,
   .app__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+  }
+
+  .about {
+    padding: 4rem 0 2rem;
+  }
+
+  .home__container .home__data {
+    text-align: initial;
+  }
+
+  .home__img {
+    padding: 0;
   }
 
   .about__data, .about__initial,
@@ -557,7 +561,6 @@ img{
   }
 }
 
-/* For tall screens on mobiles y desktop*/
 @media screen and (min-height: 721px) {
     .home__container {
         height: 640px;
