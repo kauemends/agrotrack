@@ -3,7 +3,7 @@
 :root {
   --header-height: 3rem;
 
-  --first-color: #069C54;
+  --first-color: #069c54;
   --first-color-alt: #048654;
   --title-color: #393939;
   --text-color: #707070;
@@ -107,7 +107,7 @@ img{
   padding: 4rem 0 2rem;
 }
 
-.section-title, .section-subtitle{
+.section-title{
   text-align: center;
 }
 
@@ -117,11 +117,9 @@ img{
   margin-bottom: var(--mb-3);
 }
 
-.section-subtitle{
-  display: block;
+.section-title .subsection-title{
   color: var(--first-color);
-  font-weight: var(--font-medium);
-  margin-bottom: var(--mb-1);
+  font-weight: var(--font-bold);
 }
 
 /*========== LAYOUT ==========*/
@@ -280,6 +278,7 @@ img{
   padding: .75rem 1rem;
   border-radius: .5rem;
   transition: .3s;
+  box-shadow: 0 0 30px rgba(6, 156, 84, .4);
 }
 
 .button:hover{
