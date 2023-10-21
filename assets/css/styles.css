@@ -165,6 +165,10 @@ img{
     border-radius: 0 0 1rem 1rem;
     z-index: var(--z-fixed);
   }
+
+  .about__data{
+    padding: 2rem 0 3rem;
+  }
 }
 
 .nav__item{
