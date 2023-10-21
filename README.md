@@ -8,7 +8,7 @@
 
 <img src="/assets/img/homepage-readme.png" alt="Homepage Agrotrack">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> A Agrotrack é uma empresa focada em soluções de gerenciamento rural. Oferecemos tecnologias avançadas para otimizar a agricultura, proporcionando monitoramento em tempo real e eficiência no campo.
 
 ### Ajustes e melhorias
 
@@ -22,13 +22,9 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Adicionar modo multi-idiomas
 ## ☕ Usando o Agrotrack
 
-Para usar o Agrotrack, siga estas etapas:
+Para usar o Agrotrack, acesse o site:
 
-```
-<exemplo_de_uso>
-```
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
+agrotrack.netlify.com
 
 ## 📫 Contribuindo para o Agrotrack
 
@@ -52,7 +48,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#">
         <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Kauê Mendes</b>
         </sub>
       </a>
     </td>
@@ -60,7 +56,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#">
         <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
+          <b>Leonardo Victor</b>
         </sub>
       </a>
     </td>
@@ -68,7 +64,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#">
         <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
-          <b>Steve Jobs</b>
+          <b>Kauê Mendes</b>
         </sub>
       </a>
     </td>
