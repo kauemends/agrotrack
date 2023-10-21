@@ -1,14 +1,12 @@
-# Agrotrack
+# Agrotrack 🌱
 
 ![GitHub Repo size](https://img.shields.io/github/repo-size/kauemends/agrotrack)
 ![GitHub language count](https://img.shields.io/github/languages/count/kauemends/agrotrack)
 ![GitHub forks](https://img.shields.io/github/forks/kauemends/agrotrack)
 ![Contributors](https://img.shields.io/github/contributors/kauemends/agrotrack)
 ![Stargazers](https://img.shields.io/github/stars/kauemends/agrotrack)
-[MIT License](https://img.shields.io/github/license/kauemends/agrotrack)
 
-
-<img src="imagem.png" alt="Homepage Agrotrack">
+<img src="/assets/img/homepage-readme.png" alt="Homepage Agrotrack">
 
 > Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
 
