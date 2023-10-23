@@ -79,6 +79,7 @@ body{
   background-color: var(--body-color);
   color: var(--text-color);
   line-height: 1.6;
+  transition: background .4s;
 }
 
 h1,h2,h3,p,ul{
@@ -141,6 +142,7 @@ img{
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
+  transition: background .4s;
 }
 
 .nav{
@@ -173,6 +175,7 @@ img{
 
 .nav__item{
   margin-bottom: var(--mb-2);
+  align-self: center;
 }
 
 .nav__logo{
@@ -199,6 +202,10 @@ img{
 .nav__toggle{
   font-size: 1.3rem;
   cursor: pointer;
+}
+
+li{
+  align-self: center;
 }
 
 .show-menu{
@@ -520,7 +527,8 @@ img{
 
   .change-theme{
     position: initial;
-    margin-left: var(--mb-2);
+    margin-left: var(--mb-3);
+    align-self: center;
   }
 
   .home__container{
