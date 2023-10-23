@@ -28,7 +28,7 @@ agrotrack.netlify.com
 
 ## 📫 Contribuindo para o Agrotrack
 
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+Para contribuir com Agrotrack, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
