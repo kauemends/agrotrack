@@ -290,7 +290,21 @@ li{
   box-shadow: 0 0 30px rgba(6, 156, 84, .4);
 }
 
-.button:hover{
+.button__login {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #FFF;
+  padding: .275rem .75rem;
+  border-radius: .5rem;
+  transition: .3s;
+  box-shadow: 0 0 30px rgba(6, 156, 84, .4);
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+}
+
+.button__login:hover{
   background-color: var(--first-color-alt);
 }
 
@@ -542,7 +556,7 @@ li{
   }
 
   .menu__container{
-    grid-template-columns: repeat(3, 210px);
+    grid-template-columns: repeat(4, 210px);
     column-gap: 4rem;
   }
   .menu__content{
