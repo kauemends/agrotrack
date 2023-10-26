@@ -67,8 +67,13 @@ if (selectedTheme) {
 themeButton.addEventListener('click', () => {
     document.body.classList.toggle(darkTheme)
     themeButton.classList.toggle(iconTheme)
-    localStorage.setItem('selected-theme', getCurrentTheme())
-    localStorage.setItem('selected-icon', getCurrentIcon())
+
+    if (document.body.classList.contains("dark-theme")) {
+        logo.src = "/assets/img/dark-mode-logo.svg"
+        sessionStorage.setItem("test1", "Lorem ipsum");
+    } else {
+        logo.src = "/assets/img/logo.svg"
+    }
 })
 
 const sr = ScrollReveal({

@@ -100,6 +100,14 @@ img{
   height: auto;
 }
 
+.nav__logo img{
+  width: 70%;
+}
+
+.nav__logo {
+  width: 40%;
+}
+
 .section{
   padding: 4rem 0 2rem;
 }
@@ -176,14 +184,6 @@ img{
 .nav__item{
   margin-bottom: var(--mb-2);
   align-self: center;
-}
-
-.nav__logo img{
-  max-width: 70%;
-}
-
-.nav__logo {
-  max-width: 20%;
 }
 
 .nav__link, .nav__logo, .nav__toggle{
@@ -488,6 +488,15 @@ li{
     align-items: center;
   }
 
+  .nav__logo img{
+    max-width: 70%;
+  }
+
+  .nav__logo {
+    width: 35%;
+  }
+
+
   .about {
     padding: 4rem 0 2rem;
   }
@@ -527,6 +536,14 @@ li{
 
   .section{
     padding-top: 8rem;
+  }
+
+  .nav__logo img{
+    max-width: 70%;
+  }
+
+  .nav__logo {
+    width: 22%;
   }
 
   .nav{
