@@ -178,8 +178,12 @@ img{
   align-self: center;
 }
 
-.nav__logo{
-  font-size: var(--h2-font-size);
+.nav__logo img{
+  max-width: 70%;
+}
+
+.nav__logo {
+  max-width: 20%;
 }
 
 .nav__link, .nav__logo, .nav__toggle{
